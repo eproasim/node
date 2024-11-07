@@ -48,7 +48,7 @@ RUN set -ex; \
 
 WORKDIR ${APP_ROOT}
 
-USER node
+USER 1000
 
 COPY docker-entrypoint.sh /
 COPY bin /usr/local/bin/
